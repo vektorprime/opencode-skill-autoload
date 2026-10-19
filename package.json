@@ -1,0 +1,22 @@
+{
+  "name": "opencode-skill-autoload",
+  "version": "0.1.0",
+  "description": "OpenCode 2 plugin that picks the right skills for each message using your own embedding and reranking servers.",
+  "type": "module",
+  "main": "./index.ts",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "scripts": {
+    "test": "node test/core.test.ts && node test/hook.test.ts"
+  },
+  "engines": {
+    "node": ">=22.6"
+  },
+  "keywords": ["opencode", "opencode-plugin", "skills", "embeddings", "reranker", "openchamber"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vektorprime/opencode-skill-autoload.git"
+  },
+  "license": "MIT"
+}

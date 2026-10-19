@@ -1,0 +1,8 @@
+{
+  "embedUrl": "http://127.0.0.1:8011/v1",
+  "rerankUrl": "http://127.0.0.1:8012/v1/rerank",
+  "mode": "directive",
+  "maxSkills": 2,
+  "deny": [],
+  "force": {}
+}
