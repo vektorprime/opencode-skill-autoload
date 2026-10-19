@@ -69,7 +69,7 @@ export const DEFAULTS: Config = {
   shortlist: 4,
   chunksPerSkill: 2,
   margin: 0.12,
-  rerankMin: 0.1,
+  rerankMin: 0.2,
   embedFloor: 0.3,
   embedStrong: 0.47,
   embedGap: 0.04,
