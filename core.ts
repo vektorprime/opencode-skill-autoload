@@ -74,7 +74,7 @@ export const DEFAULTS: Config = {
   embedStrong: 0.47,
   embedGap: 0.04,
   embedOnlyMin: 0.5,
-  maxSkills: 2,
+  maxSkills: 1,
   maxQueryChars: 1500,
   timeoutMs: 4000,
   deny: [],

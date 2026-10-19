@@ -40,7 +40,7 @@ Set these in `skill-autoload.json`:
 | `embedUrl` | `http://127.0.0.1:8011/v1` | Embedding server |
 | `rerankUrl` | `http://127.0.0.1:8012/v1/rerank` | Reranker. Set to `""` to skip it |
 | `mode` | `"directive"` | `"directive"` asks the model to load the skills, and you see it in the chat. `"attach"` adds them to your message directly, which always works but isn't shown in OpenChamber |
-| `maxSkills` | `2` | Most skills per message |
+| `maxSkills` | `1` | Most skills per message |
 | `deny` | `[]` | Skills never to pick, by ID |
 | `force` | `{}` | Always pick a skill when a message matches a pattern, e.g. `{"git-workflow": ["\\bgit\\b"]}` |
 | `includeBuiltin` | `false` | Also consider OpenCode's built-in skills |
